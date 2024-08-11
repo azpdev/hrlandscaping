@@ -1,0 +1,90 @@
+@import url(theme.css);
+
+/* Reset Styles */
+
+* {
+  box-sizing: border-box;
+  color: var(--color-text);
+  font-family: "Oswald", sans-serif;
+  font-size: 100%;
+  line-height: 1.2;
+}
+
+html {
+  background-color: var(--color-background);
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: auto;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  display: inline-block;
+}
+
+a {
+  color: inherit;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+p {
+  font-size: 110%;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 250%;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 180%;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 145%;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 120%;
+  font-weight: 500;
+}
+
+/* Label */
+h5 {
+  font-size: 100%;
+  font-weight: 400;
+}
+
+ul {
+  font-size: 110%;
+  padding-left: 18px;
+}
+
+li {
+  font-size: 110%;
+}
+
+/* End of Reset Styles */

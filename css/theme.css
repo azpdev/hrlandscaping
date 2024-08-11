@@ -1,0 +1,11 @@
+:root {
+  /* Theme Colors */
+  --color-primary: #88b06a;
+  --color-background: #f1f0f0;
+  --color-text: #212529;
+  --color-on-primary: #f1f0f0;
+
+  /* End of Theme Colors */
+
+  --default-max-width: 900px;
+}
