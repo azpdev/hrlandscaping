@@ -157,6 +157,8 @@ function makeReviewElement(review) {
   let authorProfileImageElement = document.createElement("img");
   authorProfileImageElement.src = review.authorAttribution.photoUri;
   authorProfileImageElement.alt = "user profile image.";
+  authorProfileImageElement.width = 60;
+  authorProfileImageElement.height = 60;
 
   authorElement.appendChild(authorProfileImageElement);
 
@@ -173,6 +175,8 @@ function makeReviewElement(review) {
   for (let i = 0; i < review.rating; i++) {
     let starElement = document.createElement("img");
     starElement.src = starUrl;
+    starElement.width = 32;
+    starElement.height = 32;
     starElement.alt = "review star.";
     starsElement.appendChild(starElement);
   }
