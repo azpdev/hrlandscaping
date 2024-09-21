@@ -1,3 +1,5 @@
+import starUrl from "./assets/icons/star.svg";
+
 const START_HOUR = 7;
 const END_HOUR = 17;
 const currentDate = new Date(
@@ -170,7 +172,8 @@ function makeReviewElement(review) {
 
   for (let i = 0; i < review.rating; i++) {
     let starElement = document.createElement("img");
-    starElement.src = "/assets/icons/star.svg";
+    starElement.src = starUrl;
+    starElement.alt = "review star.";
     starsElement.appendChild(starElement);
   }
 
