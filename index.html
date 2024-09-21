@@ -48,9 +48,11 @@
         <ul>
           <li>Lawn Care</li>
           <li>&nbsp;&nbsp;&#9900;&nbsp;&nbsp;</li>
-          <li>Snow Removal</li>
+          <li>Aeration</li>
           <li>&nbsp;&nbsp;&#9900;&nbsp;&nbsp;</li>
           <li>Softscaping</li>
+          <li>&nbsp;&nbsp;&#9900;&nbsp;&nbsp;</li>
+          <li>Snow Removal</li>
         </ul>
         <p id="business-hours" class="hours-opacity">***</p>
       </div>
@@ -58,11 +60,16 @@
         class="main-image"
         src="/assets/images/hrlandscaping.png"
         alt="main business image" />
-      <!-- <div class="short-spacer"></div>
-      <section id="testomonials">
-        <h2>Testomonials</h2>
-      </section>
       <div class="short-spacer"></div>
+      <section class="main-section">
+        <h2>Testomonials</h2>
+        <div id="loader-container">
+          <span id="loader"></span>
+        </div>
+        <div id="reviews"></div>
+      </section>
+
+      <!-- <div class="short-spacer"></div>
       <section id="seasonal">
         <h2>Seasonal Needs</h2>
         <div id="seasonal-buttons">
@@ -71,11 +78,26 @@
           <button>Fall</button>
           <button>Winter</button>
         </div>
-      </section>
-      <div class="short-spacer"></div>
+      </section> -->
+      <!-- <div class="short-spacer"></div>
       <section id="gallery">
         <h2>Gallery</h2>
       </section> -->
+
+      <div class="short-spacer"></div>
+      <section class="main-section">
+        <h2>Service Area</h2>
+        <iframe
+          id="google-map"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d193920.78114288146!2d-111.9294871!3d40.585486!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752891ddb934ff3%3A0xbcb0031572a792e9!2sHR%20Landscaping%20Services!5e0!3m2!1sen!2sus!4v1726940303690!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </section>
     </main>
 
     <footer>
@@ -84,26 +106,28 @@
           <h3>Contact</h3>
           <ul class="contact-info">
             <li>
-              <a href="tel:+18018646249"
-                ><img
+              <a href="tel:+18018646249" class="contact-info-item">
+                <img
                   src="/assets/icons/icons8-phone-24.png"
                   alt="phone icon." />
-                (801) 864-6249</a
-              >
+                (801) 864-6249
+              </a>
             </li>
             <li>
-              <a href="mailto:hrlandscapingservicesllc@gmail.com"
-                ><img
+              <a
+                href="mailto:info@hrlandscapingservices.com"
+                class="contact-info-item">
+                <img
                   src="/assets/icons/icons8-email-24.png"
                   alt="email icon." />
-                hrlandscapingservicesllc@gmail.com</a
-              >
+                <span>info@hrlandscapingservices.com</span>
+              </a>
             </li>
-            <li>
+            <li class="contact-info-item">
               <img
                 src="/assets/icons/icons8-location-24.png"
                 alt="location icon." />
-              Salt Lake County
+              <span>Salt Lake County</span>
             </li>
           </ul>
         </section>
@@ -123,28 +147,34 @@
           <h3>Follow us</h3>
           <ul class="social-links">
             <li>
-              <a href="https://www.instagram.com/hrlandscapingservicesllc/"
-                ><img
+              <a
+                href="https://www.instagram.com/hrlandscapingservicesllc/"
+                class="contact-info-item">
+                <img
                   src="/assets/icons/icons8-instagram-24.png"
                   alt="instagram icon." />
-                @hrlandscapingservicesllc</a
-              >
+                <span>@hrlandscapingservicesllc</span>
+              </a>
             </li>
             <li>
-              <a href="https://www.facebook.com/HRLandscapingServicesLLC"
-                ><img
+              <a
+                href="https://www.facebook.com/HRLandscapingServicesLLC"
+                class="contact-info-item">
+                <img
                   src="/assets/icons/icons8-facebook-24.png"
                   alt="facebook icon." />
-                HRLandscapingServicesLLC</a
-              >
+                <span>HRLandscapingServicesLLC</span>
+              </a>
             </li>
             <li>
-              <a href="https://www.youtube.com/@hrlandscapingservices8051"
-                ><img
+              <a
+                href="https://www.youtube.com/@hrlandscapingservices8051"
+                class="contact-info-item">
+                <img
                   src="/assets/icons/icons8-youtube-24.png"
                   alt="youtube icon." />
-                @hrlandscapingservices8051</a
-              >
+                <span>@hrlandscapingservices8051</span>
+              </a>
             </li>
           </ul>
         </section>
